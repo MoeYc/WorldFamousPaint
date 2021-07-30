@@ -43,7 +43,7 @@ body {
   flex-direction: column;
 }
 .wrapper .top {
-  transform: translateX(-10vmin);
+  transform: translateX(-10%);
 }
 .wrapper .top_left {
   width: 15vmin;
@@ -83,14 +83,14 @@ body {
   background-color: #d42f39;
 }
 .wrapper .top_right__content {
-  width: 100%;
+  width: 35vw;
   margin-top: 6.5vmin;
 }
 .wrapper .bottom {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  transform: translateX(5vmin);
+  transform: translateX(20%);
 }
 .wrapper .bottom_avatar {
   height: 8vmin;
