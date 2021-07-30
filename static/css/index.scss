@@ -54,7 +54,7 @@ $content-color: rgba(#7a7a7a, .9);
     .top  {
         @extend .base;
 
-        transform: translateX(-10vmin);
+        transform: translateX(-10%);
 
         &_left {
             width: 15vmin;
@@ -109,9 +109,9 @@ $content-color: rgba(#7a7a7a, .9);
             }
 
             &__content {
-                width: 100%;
+                width: 35vw;
                 margin-top: 6.5vmin;
-
+                
                 @extend .content_base;
             }
         }
@@ -123,7 +123,7 @@ $content-color: rgba(#7a7a7a, .9);
         align-items: center;
         justify-content: flex-end;
 
-        transform: translateX(5vmin);
+        transform: translateX(20%);
 
         &_avatar {
             $size: 8vmin;
