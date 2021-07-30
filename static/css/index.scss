@@ -32,9 +32,12 @@ $content-color: rgba(#7a7a7a, .9);
 
 .level_base {
     $level-height: $line-height * .9;
+    
     height: $level-height;
     border-radius: $level-height * .3;
     width: $level-width;
+
+    flex-shrink: 0;
 }
 
 .content_base {

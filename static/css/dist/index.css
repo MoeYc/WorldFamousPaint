@@ -26,6 +26,7 @@ body {
   height: 2.25vmin;
   border-radius: 0.675vmin;
   width: 3.5vmin;
+  flex-shrink: 0;
 }
 
 .content_base, .wrapper .bottom_content, .wrapper .top_right__content {
