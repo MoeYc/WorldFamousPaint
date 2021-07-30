@@ -1,0 +1,1 @@
+html{font-size:12px}.mobile_alert{display:none;position:absolute;top:0;left:0;width:100%;flex-wrap:wrap;align-items:center;justify-content:center;background-color:rgba(0,0,0,.3);color:#fff;user-select:none;font-size:1.3rem;padding:1rem 1.5rem}@media all and (orientation:portrait){.mobile_alert{display:flex}}
